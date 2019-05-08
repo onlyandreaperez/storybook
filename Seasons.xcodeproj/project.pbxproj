@@ -111,6 +111,7 @@
 				8244F5801E02C69F00FF6E15 /* GameViewController.swift */,
 				8244F57A1E02C69F00FF6E15 /* GameScene.sks */,
 				73F4D50C227F7F940004FB2E /* TitlePage.sks */,
+				73277E7E227F85F6001F740F /* TitlePage.swift */,
 				8244F57E1E02C69F00FF6E15 /* GameScene.swift */,
 				826791A71E05A61900161869 /* Scenes */,
 				8244F5821E02C69F00FF6E15 /* Main.storyboard */,
@@ -118,7 +119,6 @@
 				8250409B1E02FAB0007CBCBC /* Assets.xcassets */,
 				8250409D1E02FAC3007CBCBC /* Sounds */,
 				8244F58A1E02C69F00FF6E15 /* Info.plist */,
-				73277E7E227F85F6001F740F /* TitlePage.swift */,
 			);
 			path = Seasons;
 			sourceTree = "<group>";
