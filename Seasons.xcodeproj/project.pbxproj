@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		73277E7F227F85F6001F740F /* TitlePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73277E7E227F85F6001F740F /* TitlePage.swift */; };
+		73DAF80D2284E72B00C2AD96 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73DAF80C2284E72A00C2AD96 /* Snow.sks */; };
 		73F4D50D227F7F940004FB2E /* TitlePage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73F4D50C227F7F940004FB2E /* TitlePage.sks */; };
 		8244F5791E02C69F00FF6E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244F5781E02C69F00FF6E15 /* AppDelegate.swift */; };
 		8244F57B1E02C69F00FF6E15 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8244F57A1E02C69F00FF6E15 /* GameScene.sks */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		73277E7E227F85F6001F740F /* TitlePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePage.swift; sourceTree = "<group>"; };
+		73DAF80C2284E72A00C2AD96 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
 		73F4D50C227F7F940004FB2E /* TitlePage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitlePage.sks; sourceTree = "<group>"; };
 		8244F5751E02C69F00FF6E15 /* Seasons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seasons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8244F5781E02C69F00FF6E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				8267919C1E05A61200161869 /* Scene03.swift */,
 				8267919D1E05A61200161869 /* Scene04.sks */,
 				8267919E1E05A61200161869 /* Scene04.swift */,
+				73DAF80C2284E72A00C2AD96 /* Snow.sks */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				826791A31E05A61200161869 /* Scene03.sks in Resources */,
 				825040B21E02FAC3007CBCBC /* pg04.mp3 in Resources */,
 				825040AB1E02FAC3007CBCBC /* cameronmusic_meow.mp3 in Resources */,
+				73DAF80D2284E72B00C2AD96 /* Snow.sks in Resources */,
 				825040BA1E02FB34007CBCBC /* thompsonman_pop.mp3 in Resources */,
 				826791A51E05A61200161869 /* Scene04.sks in Resources */,
 				8244F5841E02C69F00FF6E15 /* Main.storyboard in Resources */,
