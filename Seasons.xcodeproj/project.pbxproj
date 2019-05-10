@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		73277E7F227F85F6001F740F /* TitlePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73277E7E227F85F6001F740F /* TitlePage.swift */; };
 		73DAF80D2284E72B00C2AD96 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73DAF80C2284E72A00C2AD96 /* Snow.sks */; };
+		73DAF80F2284EC8D00C2AD96 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DAF80E2284EC8D00C2AD96 /* Menu.swift */; };
 		73F4D50D227F7F940004FB2E /* TitlePage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73F4D50C227F7F940004FB2E /* TitlePage.sks */; };
 		8244F5791E02C69F00FF6E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244F5781E02C69F00FF6E15 /* AppDelegate.swift */; };
 		8244F57B1E02C69F00FF6E15 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8244F57A1E02C69F00FF6E15 /* GameScene.sks */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		73277E7E227F85F6001F740F /* TitlePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePage.swift; sourceTree = "<group>"; };
 		73DAF80C2284E72A00C2AD96 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		73DAF80E2284EC8D00C2AD96 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		73F4D50C227F7F940004FB2E /* TitlePage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitlePage.sks; sourceTree = "<group>"; };
 		8244F5751E02C69F00FF6E15 /* Seasons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seasons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8244F5781E02C69F00FF6E15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				73F4D50C227F7F940004FB2E /* TitlePage.sks */,
 				73277E7E227F85F6001F740F /* TitlePage.swift */,
 				8244F57E1E02C69F00FF6E15 /* GameScene.swift */,
+				73DAF80E2284EC8D00C2AD96 /* Menu.swift */,
 				826791A71E05A61900161869 /* Scenes */,
 				8244F5821E02C69F00FF6E15 /* Main.storyboard */,
 				8244F5871E02C69F00FF6E15 /* LaunchScreen.storyboard */,
@@ -285,6 +288,7 @@
 				826791A61E05A61200161869 /* Scene04.swift in Sources */,
 				8244F5811E02C69F00FF6E15 /* GameViewController.swift in Sources */,
 				826791A41E05A61200161869 /* Scene03.swift in Sources */,
+				73DAF80F2284EC8D00C2AD96 /* Menu.swift in Sources */,
 				8244F5791E02C69F00FF6E15 /* AppDelegate.swift in Sources */,
 				826791A01E05A61200161869 /* Scene01.swift in Sources */,
 			);
