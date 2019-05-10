@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fmw-W6-fxX">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,29 +18,31 @@
                         <viewControllerLayoutGuide type="bottom" id="eAf-l3-21U"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="obN-6T-59n">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZh-Cb-APr">
-                                <rect key="frame" x="146" y="321" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Storybook"/>
-                                <connections>
-                                    <segue destination="BV1-FR-VrT" kind="presentation" id="ZkO-dE-KTu"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uO-Gl-jXr">
-                                <rect key="frame" x="122" y="376" width="131" height="30"/>
+                                <rect key="frame" x="343" y="537" width="339" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Parent's Handbook"/>
                                 <connections>
                                     <segue destination="hpd-cH-mO1" kind="show" id="vpk-lK-rTB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kids are always fun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGb-Cw-2eD">
-                                <rect key="frame" x="66" y="137" width="242" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZh-Cb-APr">
+                                <rect key="frame" x="420" y="669" width="185" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <state key="normal" title="Storybook"/>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="presentation" id="ZkO-dE-KTu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kids are always fun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGb-Cw-2eD">
+                                <rect key="frame" x="199" y="286" width="627" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="78"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -61,123 +63,180 @@
                         <viewControllerLayoutGuide type="bottom" id="oLy-6U-L21"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="k0s-PQ-Wpk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Lord's Words of Encouragement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ps-bo-xVa">
-                                <rect key="frame" x="65" y="58" width="244" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ephesians 6:4" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPE-2h-S9L">
-                                <rect key="frame" x="16" y="116" width="121" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fathers, do not exasperate your children; instead, bring them up in the training and instruction of the Lord." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3j6-Jv-MLx">
-                                <rect key="frame" x="16" y="133" width="343" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proverbs 13:24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMh-Co-gVu">
-                                <rect key="frame" x="16" y="193" width="104" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Whoever spares the rod hates their children, but the one who loves their children is careful to discipline them." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVw-gU-ips">
-                                <rect key="frame" x="16" y="219" width="343" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proverbs 29:17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raM-jT-AlS">
-                                <rect key="frame" x="16" y="282" width="103" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dh-aN-Dax">
-                                <rect key="frame" x="16" y="308" width="343" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Discipline your children, and they will give you peace;
-they will bring you the delights you desire.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Psalm 127:3-5 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtR-n3-rSF">
-                                <rect key="frame" x="16" y="356" width="103" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cwf-E8-Ypt">
-                                <rect key="frame" x="16" y="382" width="343" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Children are a heritage from the Lord, offspring a reward from him. Like arrows in the hands of a warrior are children born in one’s youth. Blessed is the man whose quiver is full of them. They will not be put to shame when they contend with their opponents in court.
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bqe-N2-hxq">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Lord's Words of Encouragement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ps-bo-xVa">
+                                        <rect key="frame" x="275.5" y="107" width="473" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="2ps-bo-xVa" secondAttribute="height" multiplier="473:36" id="DB4-nu-imz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="33"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ephesians 6:4" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPE-2h-S9L">
+                                        <rect key="frame" x="21" y="203" width="343" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="343" id="Jt1-on-rYg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Fathers, do not exasperate your children; instead, bring them up in the training and instruction of the Lord." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3j6-Jv-MLx">
+                                        <rect key="frame" x="21" y="264" width="984" height="90"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proverbs 13:24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMh-Co-gVu">
+                                        <rect key="frame" x="21" y="381" width="323" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="323" id="GP3-uV-4bf"/>
+                                            <constraint firstAttribute="height" constant="64" id="Rki-OU-Gbc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whoever spares the rod hates their children, but the one who loves their children is careful to discipline them." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVw-gU-ips">
+                                        <rect key="frame" x="21" y="453" width="982" height="85"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discipline your children, and they will give you peace; they will bring you the delights you desire." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dh-aN-Dax">
+                                        <rect key="frame" x="21" y="636" width="982" height="64.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Psalm 127:3-5 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtR-n3-rSF">
+                                        <rect key="frame" x="21" y="709" width="256" height="42"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cwf-E8-Ypt">
+                                        <rect key="frame" x="21" y="797" width="982" height="204"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="204" id="R2p-Ug-bRH"/>
+                                        </constraints>
+                                        <string key="text">Children are a heritage from the Lord, offspring a reward from him. Like arrows in the hands of a warrior are children born in one’s youth. Blessed is the man whose quiver is full of them. They will not be put to shame when they contend with their opponents in court.
 
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lamentations 3:22-23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8V7-ow-UHF">
-                                <rect key="frame" x="16" y="471" width="153" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciV-lT-OyT">
-                                <rect key="frame" x="16" y="497" width="343" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Because of the Lord’s great love we are not consumed,
-for his compassions never fail.
-They are new every morning; great is your faithfulness.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Start children off on the way they should go, and even when they are old they will not turn from it." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYq-DK-ulG">
-                                <rect key="frame" x="16" y="589" width="343" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proverbs 22:6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDT-hh-fwF">
-                                <rect key="frame" x="16" y="563" width="97" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMv-ec-5Xf">
-                                <rect key="frame" x="322" y="20" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Done"/>
-                                <connections>
-                                    <segue destination="fmw-W6-fxX" kind="show" id="wu5-ut-O9y"/>
-                                </connections>
-                            </button>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lamentations 3:22-23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8V7-ow-UHF">
+                                        <rect key="frame" x="21" y="959" width="384" height="42"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciV-lT-OyT">
+                                        <rect key="frame" x="24" y="1042" width="980.5" height="64.5"/>
+                                        <string key="text">Because of the Lord’s great love we are not consumed,
+for his compassions never fail. They are new every morning; great is your faithfulness.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proverbs 22:6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDT-hh-fwF">
+                                        <rect key="frame" x="21" y="1143" width="244" height="42"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start children off on the way they should go, and even when they are old they will not turn from it." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYq-DK-ulG">
+                                        <rect key="frame" x="21" y="1193" width="982" height="126"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="126" id="vRQ-uw-YwH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMv-ec-5Xf">
+                                        <rect key="frame" x="947" y="28" width="58" height="94"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="94" id="0Ok-0v-A97"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Done"/>
+                                        <connections>
+                                            <segue destination="fmw-W6-fxX" kind="show" id="wu5-ut-O9y"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proverbs 29:17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raM-jT-AlS">
+                                        <rect key="frame" x="24" y="546" width="290" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="290" id="QJ8-t2-kW5"/>
+                                            <constraint firstAttribute="height" constant="42" id="fK4-ee-xDC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="centerX" secondItem="Bqe-N2-hxq" secondAttribute="centerX" id="1Kg-Oh-KEJ"/>
+                                    <constraint firstItem="5Dh-aN-Dax" firstAttribute="top" secondItem="raM-jT-AlS" secondAttribute="bottom" constant="48" id="27x-j3-Tzi"/>
+                                    <constraint firstItem="2ps-bo-xVa" firstAttribute="top" secondItem="Bqe-N2-hxq" secondAttribute="top" constant="107" id="4kb-0K-rzb"/>
+                                    <constraint firstItem="ciV-lT-OyT" firstAttribute="top" secondItem="8V7-ow-UHF" secondAttribute="bottom" constant="8" symbolic="YES" id="7Z5-sV-aa4"/>
+                                    <constraint firstItem="8V7-ow-UHF" firstAttribute="top" secondItem="Bqe-N2-hxq" secondAttribute="top" constant="959" id="9gq-vf-tb5"/>
+                                    <constraint firstAttribute="bottom" secondItem="Cwf-E8-Ypt" secondAttribute="bottom" constant="365" id="A4k-Yj-CDS"/>
+                                    <constraint firstItem="hPE-2h-S9L" firstAttribute="top" secondItem="2ps-bo-xVa" secondAttribute="bottom" constant="60" id="BPK-8C-uRd"/>
+                                    <constraint firstItem="hPE-2h-S9L" firstAttribute="leading" secondItem="raM-jT-AlS" secondAttribute="leading" constant="-3" id="CzL-gJ-cse"/>
+                                    <constraint firstAttribute="trailing" secondItem="hPE-2h-S9L" secondAttribute="trailing" constant="660" id="D84-te-grM"/>
+                                    <constraint firstItem="WMv-ec-5Xf" firstAttribute="top" secondItem="Bqe-N2-hxq" secondAttribute="topMargin" id="DMQ-YK-esb"/>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="centerX" secondItem="2ps-bo-xVa" secondAttribute="centerX" id="DzD-YX-0sg"/>
+                                    <constraint firstItem="3j6-Jv-MLx" firstAttribute="top" secondItem="hPE-2h-S9L" secondAttribute="bottom" constant="19" id="Gph-qV-D7c"/>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="leading" secondItem="CDT-hh-fwF" secondAttribute="leading" id="Gvu-nJ-Q7W"/>
+                                    <constraint firstItem="hPE-2h-S9L" firstAttribute="leading" secondItem="8V7-ow-UHF" secondAttribute="leading" id="MEg-tS-OMH"/>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="top" secondItem="CtR-n3-rSF" secondAttribute="bottom" constant="46" id="MGO-Uj-HFI"/>
+                                    <constraint firstItem="hPE-2h-S9L" firstAttribute="leading" secondItem="Bqe-N2-hxq" secondAttribute="leading" constant="21" id="N0Z-SG-Q7C"/>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="trailing" secondItem="5Dh-aN-Dax" secondAttribute="trailing" id="O27-GL-D5Q"/>
+                                    <constraint firstItem="RMh-Co-gVu" firstAttribute="top" secondItem="3j6-Jv-MLx" secondAttribute="bottom" constant="27" id="PLx-tS-vxo"/>
+                                    <constraint firstAttribute="bottom" secondItem="RMh-Co-gVu" secondAttribute="bottom" constant="921" id="S7z-tg-VoQ"/>
+                                    <constraint firstItem="hPE-2h-S9L" firstAttribute="leading" secondItem="ciV-lT-OyT" secondAttribute="leading" id="SGC-ky-sf5"/>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="trailing" secondItem="dYq-DK-ulG" secondAttribute="trailing" id="USf-jl-FHB"/>
+                                    <constraint firstItem="hPE-2h-S9L" firstAttribute="leading" secondItem="5Dh-aN-Dax" secondAttribute="leading" id="V8V-ms-7Li"/>
+                                    <constraint firstItem="dYq-DK-ulG" firstAttribute="top" secondItem="CDT-hh-fwF" secondAttribute="bottom" constant="8" symbolic="YES" id="Vb2-hU-sJZ"/>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="leading" secondItem="dYq-DK-ulG" secondAttribute="leading" id="W2D-CT-CuK"/>
+                                    <constraint firstAttribute="bottom" secondItem="raM-jT-AlS" secondAttribute="bottom" constant="778" id="XXd-tM-4qE"/>
+                                    <constraint firstItem="hPE-2h-S9L" firstAttribute="leading" secondItem="3j6-Jv-MLx" secondAttribute="leading" id="ZDD-UK-Y7g"/>
+                                    <constraint firstItem="WMv-ec-5Xf" firstAttribute="leading" secondItem="2ps-bo-xVa" secondAttribute="trailing" constant="198.5" id="bF8-bj-uje"/>
+                                    <constraint firstItem="hPE-2h-S9L" firstAttribute="leading" secondItem="UVw-gU-ips" secondAttribute="leading" id="dNu-Ci-Pn2"/>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="trailing" secondItem="UVw-gU-ips" secondAttribute="trailing" id="dv2-3t-EC7"/>
+                                    <constraint firstAttribute="bottom" secondItem="hPE-2h-S9L" secondAttribute="bottom" constant="1121" id="fTV-8W-XAL"/>
+                                    <constraint firstItem="8V7-ow-UHF" firstAttribute="bottom" secondItem="Cwf-E8-Ypt" secondAttribute="bottom" id="lOU-m5-B2l"/>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="centerX" secondItem="5Dh-aN-Dax" secondAttribute="centerX" id="m0o-KA-LYJ"/>
+                                    <constraint firstItem="Cwf-E8-Ypt" firstAttribute="leading" secondItem="CtR-n3-rSF" secondAttribute="leading" id="nb7-AT-E0b"/>
+                                    <constraint firstItem="hPE-2h-S9L" firstAttribute="leading" secondItem="RMh-Co-gVu" secondAttribute="leading" id="qE6-oM-AcR"/>
+                                    <constraint firstAttribute="bottom" secondItem="dYq-DK-ulG" secondAttribute="bottom" constant="47" id="r9s-db-BSE"/>
+                                    <constraint firstItem="UVw-gU-ips" firstAttribute="top" secondItem="RMh-Co-gVu" secondAttribute="bottom" constant="8" symbolic="YES" id="wn5-Ls-KGK"/>
+                                    <constraint firstItem="raM-jT-AlS" firstAttribute="top" secondItem="UVw-gU-ips" secondAttribute="bottom" constant="8" symbolic="YES" id="yLs-O5-yCu"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.9545843325239417" green="0.9451474476835402" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="oLy-6U-L21" firstAttribute="top" secondItem="Bqe-N2-hxq" secondAttribute="bottom" id="Ikb-Ov-AA0"/>
+                            <constraint firstItem="Bqe-N2-hxq" firstAttribute="top" secondItem="k0s-PQ-Wpk" secondAttribute="top" id="XOj-1s-Msq"/>
+                            <constraint firstAttribute="trailing" secondItem="Bqe-N2-hxq" secondAttribute="trailing" id="Xwo-Wz-bsL"/>
+                            <constraint firstItem="Bqe-N2-hxq" firstAttribute="leading" secondItem="k0s-PQ-Wpk" secondAttribute="leading" id="s1O-4n-R5j"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eq3-pZ-nXx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-447.19999999999999" y="602.24887556221893"/>
+            <point key="canvasLocation" x="-447.65624999999994" y="602.19619326500731"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="tXr-a1-R10">
@@ -188,7 +247,7 @@ They are new every morning; great is your faithfulness.</string>
                         <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
                     </layoutGuides>
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
