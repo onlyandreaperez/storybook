@@ -21,33 +21,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uO-Gl-jXr">
-                                <rect key="frame" x="343" y="537" width="339" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uO-Gl-jXr">
+                                <rect key="frame" x="342.5" y="537" width="339" height="63"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Parent's Handbook"/>
                                 <connections>
                                     <segue destination="hpd-cH-mO1" kind="show" id="vpk-lK-rTB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZh-Cb-APr">
-                                <rect key="frame" x="420" y="669" width="185" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZh-Cb-APr">
+                                <rect key="frame" x="419.5" y="669" width="185" height="63"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="Storybook"/>
                                 <connections>
                                     <segue destination="BV1-FR-VrT" kind="presentation" id="ZkO-dE-KTu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kids are always fun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGb-Cw-2eD">
-                                <rect key="frame" x="199" y="286" width="627" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kids are always fun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGb-Cw-2eD">
+                                <rect key="frame" x="198.5" y="286" width="627" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="b98-I7-36Z"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="78"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95458433249999997" green="0.94514744770000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="4uO-Gl-jXr" firstAttribute="centerX" secondItem="fZh-Cb-APr" secondAttribute="centerX" id="BbD-6N-m0c"/>
+                            <constraint firstItem="HGb-Cw-2eD" firstAttribute="top" secondItem="0Bk-ry-VLd" secondAttribute="bottom" constant="266" id="Q4G-DD-tNI"/>
+                            <constraint firstItem="4uO-Gl-jXr" firstAttribute="centerX" secondItem="HGb-Cw-2eD" secondAttribute="centerX" id="UBz-Le-08j"/>
+                            <constraint firstItem="fZh-Cb-APr" firstAttribute="top" secondItem="4uO-Gl-jXr" secondAttribute="bottom" constant="69" id="W7U-YV-LCs"/>
+                            <constraint firstItem="4uO-Gl-jXr" firstAttribute="top" secondItem="HGb-Cw-2eD" secondAttribute="bottom" constant="166" id="irh-TU-58k"/>
+                            <constraint firstItem="HGb-Cw-2eD" firstAttribute="centerX" secondItem="obN-6T-59n" secondAttribute="centerX" id="onR-O0-cOy"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Hh-ED-vp1" userLabel="First Responder" sceneMemberID="firstResponder"/>
