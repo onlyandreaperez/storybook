@@ -46,21 +46,54 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="AB9-ZN-Ugd">
+                                <rect key="frame" x="156" y="775" width="114" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="01W-cC-FvZ"/>
+                                    <constraint firstAttribute="height" constant="103" id="1o0-sF-8Gr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="YiM-7o-ZSF">
+                                <rect key="frame" x="709" y="856" width="116" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="aci-18-OeS">
+                                <rect key="frame" x="89" y="90" width="114" height="121"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="121" id="FbP-hm-U9t"/>
+                                    <constraint firstAttribute="width" constant="114" id="ScC-TH-VG6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="FJh-V6-XJF">
+                                <rect key="frame" x="881" y="167" width="89" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="89" id="gbd-qj-A7P"/>
+                                    <constraint firstAttribute="height" constant="80" id="zT4-Zf-y6i"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.95458433249999997" green="0.94514744770000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="4uO-Gl-jXr" firstAttribute="centerX" secondItem="fZh-Cb-APr" secondAttribute="centerX" id="BbD-6N-m0c"/>
+                            <constraint firstItem="HGb-Cw-2eD" firstAttribute="top" secondItem="aci-18-OeS" secondAttribute="bottom" constant="75" id="HHs-JY-l5H"/>
                             <constraint firstItem="HGb-Cw-2eD" firstAttribute="top" secondItem="0Bk-ry-VLd" secondAttribute="bottom" constant="266" id="Q4G-DD-tNI"/>
+                            <constraint firstItem="eAf-l3-21U" firstAttribute="top" secondItem="AB9-ZN-Ugd" secondAttribute="bottom" constant="488" id="Rp7-Hz-7JE"/>
                             <constraint firstItem="4uO-Gl-jXr" firstAttribute="centerX" secondItem="HGb-Cw-2eD" secondAttribute="centerX" id="UBz-Le-08j"/>
+                            <constraint firstItem="AB9-ZN-Ugd" firstAttribute="leading" secondItem="obN-6T-59n" secondAttribute="leadingMargin" constant="136" id="VAd-ef-Lrz"/>
                             <constraint firstItem="fZh-Cb-APr" firstAttribute="top" secondItem="4uO-Gl-jXr" secondAttribute="bottom" constant="69" id="W7U-YV-LCs"/>
+                            <constraint firstItem="AB9-ZN-Ugd" firstAttribute="top" secondItem="HGb-Cw-2eD" secondAttribute="bottom" constant="404" id="XnQ-LZ-K0b"/>
                             <constraint firstItem="4uO-Gl-jXr" firstAttribute="top" secondItem="HGb-Cw-2eD" secondAttribute="bottom" constant="166" id="irh-TU-58k"/>
+                            <constraint firstItem="aci-18-OeS" firstAttribute="leading" secondItem="obN-6T-59n" secondAttribute="leadingMargin" constant="69" id="jIl-QL-ZDo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FJh-V6-XJF" secondAttribute="trailing" constant="34" id="lvh-st-azD"/>
                             <constraint firstItem="HGb-Cw-2eD" firstAttribute="centerX" secondItem="obN-6T-59n" secondAttribute="centerX" id="onR-O0-cOy"/>
+                            <constraint firstItem="FJh-V6-XJF" firstAttribute="top" secondItem="0Bk-ry-VLd" secondAttribute="bottom" constant="147" id="r18-91-N0M"/>
+                            <constraint firstItem="aci-18-OeS" firstAttribute="top" secondItem="0Bk-ry-VLd" secondAttribute="bottom" constant="70" id="r7Y-UH-Mwz"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Hh-ED-vp1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1380" y="45"/>
+            <point key="canvasLocation" x="-1380.46875" y="44.802342606149338"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SHi-SO-kR7">
@@ -264,4 +297,7 @@ for his compassions never fail. They are new every morning; great is your faithf
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="star" width="650" height="651"/>
+    </resources>
 </document>
